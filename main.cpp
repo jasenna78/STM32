@@ -43,7 +43,7 @@ void carEntered()
   static int counter1 = 0;
   counter1++;
 
-  Serial.print("auto je doslo ");
+  Serial.print("Auto je doslo ");
   Serial.print(counter1);
   Serial.println(" puta");
 }
@@ -54,7 +54,7 @@ void carPassed()
   static int counter2 = 0;
   counter2++;
 
-  Serial.print("auto je proslo na rampi");
+  Serial.print("Auto je proslo rampu ");
   Serial.print(counter2);
   Serial.println(" puta");
   rampa.close_ramp();
@@ -65,7 +65,7 @@ void onClickButton()
   static int counter = 0;
   counter++;
 
-  Serial.print("Klik 1 detektovan ");
+  Serial.print("Klik detektovan ");
   Serial.print(counter);
   Serial.println(" puta");
 
